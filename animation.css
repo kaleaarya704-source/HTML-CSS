@@ -1,0 +1,28 @@
+.box{
+    height: 700px;
+    width: 700px;
+    background-color: red;
+    animation-name: colorChange;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorChange {
+    0%{
+        background-color: greenyellow;
+    }
+    10%{
+        background-color: blue;
+    }
+    20%{
+        background-color: rgb(169, 17, 230);
+    }
+    30%{
+        background-color: rgb(210, 227, 12);
+    }
+    40%{
+        background-color: rgb(26, 232, 236);
+    }
+    50%{
+        background-color: rgb(226, 31, 230);
+    }
+}
