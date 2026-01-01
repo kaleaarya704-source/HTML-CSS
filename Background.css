@@ -1,0 +1,24 @@
+body{
+  
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 1000px;
+    background-attachment: fixed;
+}
+
+.box{
+    height: 370px;
+    width: 450px;
+    background-color: coral;
+    border: 10px dashed black;
+    padding: 50px;
+    background-image: url(./IMAGES/AVENGERS.jpeg);
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 450px 370px; */
+    background-position: center;
+    /* background-blend-mode:overlay; */
+    background-clip: border-box;
+    /* background-clip: content-box; */
+    /* background-clip: padding-box; */
+} 
