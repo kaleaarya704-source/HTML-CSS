@@ -1,0 +1,38 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: lavender;
+    /* border: 5px solid black; */
+    /* border: 5px dashed black; */
+    /* border: 5px dotted black; */
+    /* border: 5px double black; */
+    border: 50px ridge black;
+    /* border: 5px groove black;
+    border: 5px inset black;
+    border: 5px outset black; */
+
+    /* border-radius: 500px;
+    border-radius: 80%; */
+
+    overflow: scroll;
+    /* overflow: auto; */
+    resize: both;
+    /* resize: horizontal;
+    resize: vertical; */
+    visibility: visible;
+    margin: auto;
+    margin-top: 100px;
+    outline: 5px dashed darkorchid;
+    outline-offset: 10px;
+    border-image: url(./IMAGES/BTS/WhatsApp\ Image\ 2024-09-14\ at\ 04.35.22_66d86399.jpg) round 10000;
+
+}
+
+input{
+    height: 40px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    
+}
