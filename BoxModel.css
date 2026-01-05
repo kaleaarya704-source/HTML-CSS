@@ -1,0 +1,12 @@
+.box{
+    height: 400px;
+    width: 500px;
+    background-color: hotpink;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+.box button{
+    padding: 20px;
+    font-size: 15px;
+}
