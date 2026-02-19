@@ -1,0 +1,15 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(yellow,orange,green,blue,white,red,purple);
+    border: 10px inset black;
+    margin: auto;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    border-radius: 50%;
+}
+.box:hover{
+    transform: scale(2) rotate(1800deg);
+    transition: 4s;
+}
